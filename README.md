@@ -1,15 +1,6 @@
-# 🚀 Welcome to your new awesome project!
+# Welcome!
 
-This project has been created using **webpack-cli**, you can now run
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+This project is built using these technologies:
+• Three.js
+• WebGL
+• Build tools: Node, Webpack CLI, Babel and their plugins
