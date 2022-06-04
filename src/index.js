@@ -1,7 +1,7 @@
 import { WebGLRenderer } from 'three';
 
 import scene from './scene/scene';
-import camera from 'camera';
+import camera from './camera';
 
 const renderer = new WebGLRenderer();
 renderer.setSize(innerWidth, innerHeight);
