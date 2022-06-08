@@ -8,7 +8,6 @@ const renderer = new WebGLRenderer({
 });
 renderer.setSize(innerWidth, innerHeight);
 renderer.setPixelRatio(devicePixelRatio);
-
 document.body.appendChild(renderer.domElement);
 
 const animate = () => {
