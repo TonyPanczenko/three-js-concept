@@ -6,6 +6,6 @@ const camera = new PerspectiveCamera(
   0.1,
   1000
 );
-camera.translateZ(10);
+camera.position.set(0, 10, 30);
 
 export default camera; 

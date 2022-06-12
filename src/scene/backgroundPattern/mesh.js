@@ -1,6 +1,6 @@
-import { Mesh, CylinderGeometry, MeshBasicMaterial } from 'three';
+import { Mesh, PlaneGeometry, MeshBasicMaterial, Vector3 } from 'three';
 
-const geometry = new CylinderGeometry( 5, 5, 30, 15, 15, true );
+const geometry = new PlaneGeometry( 100, 100, 40, 40 );
 const material = new MeshBasicMaterial({ 
   color: 0xff0000,
   wireframe: true
