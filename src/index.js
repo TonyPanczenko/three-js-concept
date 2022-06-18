@@ -1,10 +1,11 @@
-import { WebGLRenderer } from 'three';
+import { WebGLRenderer, sRGBEncoding } from 'three';
 
 import scene from './scene/scene';
 import camera from './camera';
 
 const renderer = new WebGLRenderer({
   antialias: true,
+  outputEncoding: sRGBEncoding,
 });
 renderer.setSize(innerWidth, innerHeight);
 renderer.setPixelRatio(devicePixelRatio);

@@ -1,4 +1,4 @@
-import { Mesh, PlaneGeometry, MeshBasicMaterial, Vector3 } from 'three';
+import { Mesh, PlaneGeometry, MeshBasicMaterial } from 'three';
 
 const geometry = new PlaneGeometry( 100, 100, 40, 40 );
 const material = new MeshBasicMaterial({ 
