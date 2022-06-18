@@ -14,6 +14,7 @@ const config = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '/'
   },
   devServer: {
     open: true,
@@ -63,7 +64,7 @@ const config = {
   },
   resolve: {
     alias: {
-      '@assets': path.resolve(__dirname, 'src/assets/'),
+      '@assets': path.resolve(__dirname, 'public/assets/'),
     },
   },
 };

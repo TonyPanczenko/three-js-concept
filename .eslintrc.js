@@ -31,7 +31,7 @@ module.exports = {
     'import/resolver': {
       alias: {
         map: [
-          ['@assets', './sec/assets'],
+          ['@assets', './public/assets'],
         ],
       }
     }

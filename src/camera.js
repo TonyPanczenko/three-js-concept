@@ -8,4 +8,4 @@ const camera = new PerspectiveCamera(
 );
 camera.position.set(0, 10, 30);
 
-export default camera; 
+export default camera;
