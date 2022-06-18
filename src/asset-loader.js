@@ -1,4 +1,5 @@
-import { GLTFLoader, LoadingManager } from 'three';
+import { LoadingManager } from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 const manager = new LoadingManager(
   () => console.log( 'Loading complete!'),

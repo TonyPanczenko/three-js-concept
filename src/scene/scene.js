@@ -1,5 +1,6 @@
 import { Scene } from 'three';
 
+import assetLoader from '../asset-loader';
 import backgroundPattern from './backgroundPattern/mesh';
 
 const scene = new Scene();
