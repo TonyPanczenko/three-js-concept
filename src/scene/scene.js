@@ -8,6 +8,12 @@ scene.add(backgroundPattern);
 backgroundPattern.position.set(0, 0, 0);
 backgroundPattern.rotation.set(90/(2 * Math.PI), 0, 0);
 
-
+assetLoader.load(
+  '',
+  function ( gltf ) {
+    scene.add( gltf.scene );
+    console.log(gltf.scene);
+  },
+);
 
 export default scene;

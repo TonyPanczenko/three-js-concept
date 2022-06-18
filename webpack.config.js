@@ -61,6 +61,11 @@ const config = {
       // Learn more about loaders from https://webpack.js.org/loaders/
     ],
   },
+  resolve: {
+    alias: {
+      '@assets': path.resolve(__dirname, 'src/assets/'),
+    },
+  },
 };
 
 module.exports = () => {

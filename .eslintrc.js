@@ -27,4 +27,13 @@ module.exports = {
     ]
   },
   'ignorePatterns': ['dist/*'],
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@assets', './sec/assets'],
+        ],
+      }
+    }
+  }
 };
